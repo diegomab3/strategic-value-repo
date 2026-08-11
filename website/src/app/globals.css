@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  /* identidade Strategic Value: azul escuro, preto, cinza — sem tema claro */
+  --sv-black: #05070a;
+  --sv-navy-950: #070c15;
+  --sv-navy-900: #0b1220;
+  --sv-navy-800: #101a2e;
+  --sv-navy-700: #17233b;
+  --sv-navy-600: #223350;
+
+  --sv-blue-600: #2c5aa0;
+  --sv-blue-500: #3d72c4;
+  --sv-blue-400: #6f9bdc;
+
+  --sv-gray-50: #f2f4f7;
+  --sv-gray-200: #cbd2dc;
+  --sv-gray-300: #a9b2c0;
+  --sv-gray-500: #7c8695;
+  --sv-gray-700: #454c57;
+  --sv-gray-800: #262b33;
+
+  --background: var(--sv-black);
+  --foreground: var(--sv-gray-50);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-sv-black: var(--sv-black);
+  --color-sv-navy-950: var(--sv-navy-950);
+  --color-sv-navy-900: var(--sv-navy-900);
+  --color-sv-navy-800: var(--sv-navy-800);
+  --color-sv-navy-700: var(--sv-navy-700);
+  --color-sv-navy-600: var(--sv-navy-600);
+
+  --color-sv-blue-600: var(--sv-blue-600);
+  --color-sv-blue-500: var(--sv-blue-500);
+  --color-sv-blue-400: var(--sv-blue-400);
+
+  --color-sv-gray-50: var(--sv-gray-50);
+  --color-sv-gray-200: var(--sv-gray-200);
+  --color-sv-gray-300: var(--sv-gray-300);
+  --color-sv-gray-500: var(--sv-gray-500);
+  --color-sv-gray-700: var(--sv-gray-700);
+  --color-sv-gray-800: var(--sv-gray-800);
+
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-heading);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background: var(--sv-blue-600);
+  color: var(--sv-gray-50);
+}

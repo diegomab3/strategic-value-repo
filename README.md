@@ -8,7 +8,7 @@ Repositório da metodologia proprietária do Strategic Assessment™, biblioteca
 - `/cases-teste` — histórico de todos os casos usados para validar e refinar o framework (fictícios dentro do ICP, e empresas reais de grande porte usadas como teste de escala/limite).
 - `/infraestrutura` — schema e documentação do banco de dados (Supabase) que armazena a biblioteca proprietária viva (achados, KPIs, intervenções, recorrência de padrões); inclui `/infraestrutura/dados`, snapshot em JSON do conteúdo real da biblioteca.
 - `/agente` — futuro agente de recomendação (gargalo → intervenção mais validada). Bloqueado até haver dado real de resultado (ver pasta).
-- `/website` — site institucional/comercial. Não iniciado.
+- `/website` — site institucional (Next.js) com home, quem somos e área do cliente (portal protegido por login via Supabase Auth).
 - `/aplicativos` — apps voltados a cliente ou uso interno. Não iniciado.
 
 ## Status
