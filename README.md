@@ -6,7 +6,10 @@ Repositório da metodologia proprietária do Strategic Assessment™, biblioteca
 
 - `/metodologia` — framework de KPIs por área (financeiro, operações, DP, comercial, marketing), metodologia de triagem e priorização, roteiro de coleta de dados e biblioteca de intervenções.
 - `/cases-teste` — histórico de todos os casos usados para validar e refinar o framework (fictícios dentro do ICP, e empresas reais de grande porte usadas como teste de escala/limite).
-- `/infraestrutura` — schema e documentação do banco de dados (Supabase) que armazena a biblioteca proprietária viva (achados, KPIs, intervenções, recorrência de padrões).
+- `/infraestrutura` — schema e documentação do banco de dados (Supabase) que armazena a biblioteca proprietária viva (achados, KPIs, intervenções, recorrência de padrões); inclui `/infraestrutura/dados`, snapshot em JSON do conteúdo real da biblioteca.
+- `/agente` — futuro agente de recomendação (gargalo → intervenção mais validada). Bloqueado até haver dado real de resultado (ver pasta).
+- `/website` — site institucional/comercial. Não iniciado.
+- `/aplicativos` — apps voltados a cliente ou uso interno. Não iniciado.
 
 ## Status
 
