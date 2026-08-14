@@ -18,14 +18,14 @@ Projeto Supabase: "Strategic Value" (project_id: lfrzkcqwxoojtojscydd)
 
 ## Status atual
 
-Populado com 9 empresas (5 casos-teste dentro do ICP, 4 fora), 35 KPIs, 11 intervenções, 14 achados estruturados — todos com `tipo = 'case_teste_ficticio'` ou `'case_teste_real_publico'`. Nenhum dado de cliente real ainda. `achado_intervencao` (achado → intervenção aplicada → resultado) está vazia — só populada quando um caso real fechar o ciclo.
+Populado com 13 empresas (9 casos-teste dentro do ICP, 4 fora — grande porte, teste de limite superior — mais Nova Motorsport testando o limite inferior de faturamento), 35 KPIs, 16 intervenções, 30 achados estruturados — todos com `tipo = 'case_teste_ficticio'` ou `'case_teste_real_publico'`. Nenhum dado de cliente real ainda. `achado_intervencao` (achado → intervenção aplicada → resultado) está vazia — só populada quando um caso real fechar o ciclo.
 
 ## Dados exportados (`/dados`)
 
 Cópia local, em JSON, do conteúdo vivo do Supabase — o Supabase é a fonte de verdade (é onde o dado é escrito e atualizado); os arquivos aqui são um snapshot para versionamento, backup e consumo por código sem depender de acesso ao banco:
 
 - `dados/kpis_biblioteca.json` — os 35 KPIs completos (fórmula, fonte, interpretação).
-- `dados/intervencoes_biblioteca.json` — os 11 padrões de intervenção, com `vezes_observado` (contador de validação por recorrência).
-- `dados/achados.json` — os 14 achados estruturados dos casos-teste, com empresa, KPIs observados e classificação.
+- `dados/intervencoes_biblioteca.json` — os 16 padrões de intervenção, com `vezes_observado` (contador de validação por recorrência).
+- `dados/achados.json` — os 30 achados estruturados dos casos-teste, com empresa, KPIs observados e classificação.
 
-Snapshot tirado em 2026-08-11. Reexportar do Supabase (`project_id: lfrzkcqwxoojtojscydd`) sempre que a base mudar de forma relevante — não há sincronização automática ainda.
+Snapshot tirado em 2026-08-14 (batch anterior: 2026-08-11). Reexportar do Supabase (`project_id: lfrzkcqwxoojtojscydd`) sempre que a base mudar de forma relevante — não há sincronização automática ainda.

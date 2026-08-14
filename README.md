@@ -12,7 +12,7 @@ Repositório da metodologia proprietária do Strategic Assessment™, biblioteca
 
 ## Status
 
-Framework validado em 9 casos-teste (5 dentro do ICP, 4 fora — teste de escala). Nenhum cliente real pagante ainda. Próxima etapa: primeiro cliente real, para transição de dado sintético para dado real na biblioteca proprietária (ver `/infraestrutura`).
+Framework validado em 13 casos-teste (9 dentro do ICP, 4 fora — teste de escala superior; um dos 9, Nova Motorsport, testa o limite inferior de faturamento). Nenhum cliente real pagante ainda. Próxima etapa: primeiro cliente real, para transição de dado sintético para dado real na biblioteca proprietária (ver `/infraestrutura`).
 
 ## ICP
 
