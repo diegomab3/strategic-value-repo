@@ -11,8 +11,6 @@ Projeto Supabase: "Strategic Value" (project_id: lfrzkcqwxoojtojscydd)
 - **intervencoes_biblioteca** — padrões de solução por tipo de gargalo, com contador `vezes_observado` que cresce a cada recorrência em novo caso — métrica de validação do padrão.
 - **achado_intervencao** — liga achados às intervenções efetivamente aplicadas e ao resultado capturado.
 - **value_reports** — metadados dos relatórios finais gerados.
-- **profiles** — liga um usuário autenticado (`auth.users`) a uma empresa; sustenta o login do portal do cliente em `/website`. Criada automaticamente e vazia no primeiro login; vínculo com `empresa_id` é manual.
-- **leads** — contatos capturados pelo formulário do site institucional.
 
 ## Lógica central
 
